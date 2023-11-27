@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaeded;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBarTop {
+  background-color: #222f3e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo img {
+  height: auto;
+  width: 130px;
+  margin-left: 30px;
+}
+
+.divShop {
+  background-color: #354758;
+  color: white;
+}
+
+.listBarShop {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.divOrange {
+  background-color: #f56600;
+  margin: 0 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.divOrange h3 {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.divHolidayPic {
+  margin: 0 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  position: relative;
+}
+
+.divHolidayPic img {
+  width: 100%;
+  height: auto;
+}
+
+.headerText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+.headerText h2,
+.headerText h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.headerText h3 {
+  margin-top: 20px;
+}
+
+.firstSection {
+  background-color: white;
+  margin: 0 35px 0 35px;
+}
+
+.textProduct {
+  padding: 10px;
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+  padding-left: 30px;
+}
+
+.textProduct a {
+  color: #017185;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.productContainer {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.productImg {
+  border-radius: 15px;
+  flex-grow: 1;
+  object-fit: cover;
+  height: 400px;
+  width: 15%;
+}
+
+.secondSection {
+  margin: 0 35px 0 35px;
+}
+
+.divVisore {
+  padding-top: 35px;
+  display: flex;
+}
+
+.imgVisore {
+  width: 100%;
+  height: 480px;
+}
+
+.textVisore {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.textVisore a {
+  color: #017185;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.thirdSection {
+  margin: 0 35px 0 35px;
+}
+
+.divCuffie {
+  padding-top: 35px;
+  display: flex;
+}
+
+.imgCuffie {
+  width: 100%;
+  height: 480px;
+}
+
+.textCuffie {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.textCuffie a {
+  color: #017185;
+  text-decoration: none;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.mainExtraSection{
+  display: flex;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 0;
+}
+
+.extraSection h2 {
+width: 100%;
+margin-left: 20px;
+font-size: 170%;
+margin-bottom: 0;
+padding-bottom:10px ;
+}
+
+.extraSection {
+  background-color: white;
+  max-width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  padding-top: 0;;
+  object-fit: cover;
+  padding-bottom: 0;
+}
+
+.extraSection1 h2 {
+  width: 100%;
+  margin-left: 20px;
+  font-size: 170%;
+  margin-bottom: 0;
+  padding-bottom:10px ;
+  } 
+
+.extraSection1 {
+  background-color: white;
+  max-width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  padding-top: 0;
+  object-fit: cover;
+}
+
+.extraImgSection1 {
+  display: block; 
+  height: 35%;
+  width: 50%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.extraIMG {
+  display: block; 
+  height: 180px;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding: 20px;
+}
+
+
+.h2Gaming {
+  margin-top: 0;
+}
+
+.newIMG,
+.newIMG1,
+.newIMG2{
+  width: 60px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.divShirts{
+  height: 180px;
+  width: 50%;
+  position: relative;
+  object-fit: cover;
+}
+
+.extraIMG1 {
+  display: block; 
+  height: 180px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.easyTees{
+  height: 180px;
+  width: 50%;
+  position: relative;
+  object-fit: cover;
+}
+
+.electronics{
+  height: 180px;
+  width: 50%;
+  position: relative;
+  object-fit: cover;
+}
+
+.imageContainer {
+  height: auto;
+  width: 50%;
+  box-sizing: border-box;
+  position: relative;
+  flex-wrap: wrap;
+  object-fit: cover;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}                                                                                                                        
+
+.caption{
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.extrasection1Footer {
+  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #007185;
+}
+
+.bToTop{
+  background-color: #354758;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.bToTop a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logoFooter{
+background-color: #222F3E;
+justify-content: center;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 65px;
+
+}
+
+.logoFooter img {
+  height: auto;
+  width: 140px;
+}
